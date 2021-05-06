@@ -1,0 +1,26 @@
+{
+  "name": "my-webpack-project",
+  "version": "1.0.0",
+  "description": "My webpack project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode=production",
+    "build:dev": "webpack --mode=development",
+    "build:prod": "webpack --mode=production",
+    "watch": "webpack --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@angular/compiler-cli": "^11.2.13",
+    "@ngtools/webpack": "^11.2.12",
+    "@webpack-cli/generators": "^2.0.0",
+    "webpack": "^5.36.2",
+    "webpack-cli": "^4.6.0",
+    "webpack-virtual-modules": "^0.4.2"
+  },
+  "dependencies": {
+    "@angular/core": "^11.2.13"
+  }
+}
